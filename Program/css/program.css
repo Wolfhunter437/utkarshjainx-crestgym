@@ -1,0 +1,456 @@
+*
+{
+	padding: 0rem;
+	margin: 0rem;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+:root
+{
+	--bgimg1: rgba(0, 0, 0, 0.4);
+	--bgimg2: rgba(0, 0, 0, 0.8);
+	--primary1: #FFFFFFE6;
+	--primary2: #E5CE48;
+	--textcolor: #808080;
+	--heading: white;
+	--crest: #b41b1b;
+	--backgroundColor: #090808;
+	--titles: #BFBFBF;
+	--black: black;
+}
+
+body
+{
+	background: url(https://cdn.wallpapersafari.com/1/3/97ilPz.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.row
+{
+	margin: 0rem;
+}
+
+.bgimg1
+{
+	background: var(--primary2);
+	padding: 2rem;
+}
+
+.nav-link
+{
+	color: var(--black);
+	font-family: Poppins, sans-serif;
+	font-size: 1.3rem;
+	letter-spacing: 0.2em;
+	margin: 0rem 0rem 0rem 4rem;
+}
+
+.nav-link:hover
+{
+	color: var(--crest);
+	transition-duration: 0.5s;
+}
+
+.active
+{
+	color: var(--crest);
+}
+
+
+
+.program
+{
+	height: auto;
+	padding: 10rem 0rem 0rem 0rem;
+}
+
+.program1 h5
+{
+	color: var(--primary2);
+	font-size: 1.6rem;
+	font-family: Poppins, sans-serif;
+	margin-bottom: 0.4rem;
+}
+
+.program1 h1
+{
+	color: var(--heading);
+	font-family: Popping, sans-serif;
+	font-size: 3.7rem;
+	font-weight: bold;
+	margin-bottom: 2.5rem;
+}
+
+.program1 p
+{
+	font-size: 1.4rem;
+	color: var(--textcolor);
+	font-family: Poppins, sans-serif;
+	margin-bottom: 2rem;
+	line-height: 2.5rem;
+}
+
+.view-programs
+{
+	width: auto;
+	height: auto;
+	padding: 1.6rem 2rem;
+	background: none;
+	font-size: 1.3rem;
+	font-family: Poppins, sans-serif;
+	border: 0.1rem var(--primary2) solid;
+	color: var(--primary2);
+	margin: 0rem 1.5rem;
+}
+
+.view-programs:hover
+{
+	background: var(--primary2);
+	border: 0.1rem var(--primary2) solid;
+	transition-duration: 0.3s;
+	color: var(--heading);
+}
+
+.program1
+{
+	padding-top: 40rem;
+	margin-bottom: 8rem;
+}
+
+.circle-box
+{
+	margin-bottom: 6rem;
+}
+
+.circle1, .circle2, .circle3, .circle4, .circle5
+{
+	width: 10rem;
+	height: 10rem;
+	background: var(--primary2);
+	border-radius: 5rem;
+	padding: 3.4rem 0rem 0rem 2.8rem;
+}
+
+.circle2
+{
+	padding: 2.6rem 0rem 0rem 3rem;
+}
+
+.circle3
+{
+	padding: 3rem 0rem 0rem 2.8rem;
+}
+
+.circle4
+{
+	padding: 2.6rem 0rem 0rem 2.8rem;
+}
+
+.circle5
+{
+	padding: 3rem 0rem 0rem 2.8rem;
+}
+
+.circle1 img, .circle2 img, .circle3 img, .circle4 img, .circle5 img
+{
+	width: 4.5rem;
+}
+
+.program2 h3
+{
+	color: var(--heading);
+	font-family: Poppins, sans-serif;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	margin-left: 2.5rem;
+}
+
+.program2 h4
+{
+	color: var(--textcolor);
+	font-family: Poppins, sans-serif;
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+	margin-left: 2.5rem;
+}
+
+
+
+.our-packages
+{
+	padding: 10rem 0rem 10rem 0rem;
+}
+
+.our-packages h5
+{
+	color: var(--primary2);
+	font-size: 1.6rem;
+	font-family: Poppins, sans-serif;
+	margin-bottom: 0.4rem;
+}
+
+.our-packages h1
+{
+	color: var(--heading);
+	font-family: Popping, sans-serif;
+	font-size: 3.7rem;
+	font-weight: bold;
+	margin-bottom: 2.5rem;
+}
+
+.our-packages p
+{
+	font-size: 1.4rem;
+	color: var(--textcolor);
+	font-family: Poppins, sans-serif;
+	margin-bottom: 6rem;
+}
+
+.packages-img
+{
+	height: 28rem;
+	background: black;
+	margin: auto;
+	margin-bottom: 1.5rem;
+	overflow: hidden;
+}
+
+.packages-img img
+{
+	width: 43rem;
+}
+
+.packages-img #fat-burning
+{
+	width: 38rem;
+}
+
+.packages-txt
+{
+	margin: auto;
+}
+
+.package1
+{
+	margin: 0rem 0rem 2rem 0rem;
+}
+
+.package1 h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 2.2rem;
+	color: var(--heading);
+}
+
+.package1 h5
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5rem;
+	color: var(--titles);
+	margin-bottom: 2.5rem;
+}
+
+.package1 p
+{
+	color: var(--textcolor);
+	font-family: Poppins, sans-serif;
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+	margin: 0rem 0rem 3rem 0rem;
+}
+
+.package1 h1
+{
+	color: var(--primary2);
+	font-family: Poppins, sans-serif;
+	font-size: 2.3rem;
+}
+
+.per-year
+{
+	font-size: 1.3rem;
+	color: var(--titles);
+}
+
+.package1 button
+{
+	background: var(--titles);
+	padding: 1.3rem 2.6rem;
+	font-size: 1.5rem;
+	font-family: Poppins, sans-serif;
+	color: var(--heading);
+	float: right;
+	border: none;
+}
+
+.package1:hover .packages-txt button
+{
+	background: var(--primary2);
+	color: var(--black);
+	transition-duration: 0.4s;
+}
+
+
+
+footer
+{
+	padding: 10rem 0rem;
+	background: var(--backgroundColor);
+}
+
+footer .about h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .about p
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.6rem;
+	color: var(--textcolor);
+	line-height: 2.7rem;
+	margin-bottom: 5rem;
+}
+
+footer .about button
+{
+	width: 5.5rem;
+	height: 5.5rem;
+	border-radius: 3rem;
+	padding: 0rem 0rem 0rem 0.1rem;
+	background: #FFFFFF0D;
+	margin-left: 0.7rem;
+}
+
+footer .about button svg
+{
+	color: var(--heading);
+}
+
+footer .about button svg:hover
+{
+	color: var(--primary2);
+	transition-duration: 0.2s;
+}
+
+footer .about
+{
+	margin-bottom: 5rem;
+}
+
+footer .recent-testimonies h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .recent-testimonies .recent-img
+{
+	width: 6rem;
+	height: 6rem;
+	background: #FFFFFF0D;
+	overflow: hidden;
+}
+
+footer .recent-testimonies .recent-img img
+{
+	width: 5rem;
+	position: absolute;
+	right: 0rem;
+}
+
+footer .recent-testimonies p 
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.6rem;
+	color: var(--titles);
+	line-height: 2.7rem;
+	margin-bottom: 5rem;
+}
+
+footer .recent-testimonies p:hover
+{
+	transition-duration: 0.3s;
+	color: var(--primary2);
+	cursor: pointer;
+}
+
+footer .recent-testimonies
+{
+	margin-bottom: 5rem;
+}
+
+footer .f-services h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .f-services h3
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	color: var(--titles);
+}
+
+footer .f-services h3:hover
+{
+	color: var(--heading);
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+footer .f-services
+{
+	margin-bottom: 5rem;
+}
+
+footer .questions h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .questions svg
+{
+	color: var(--heading);
+	margin-bottom: 3rem;
+}
+
+footer .questions p 
+{
+	color: var(--titles);
+	font-size: 1.6rem;
+	font-family: Poppins, sans-serif;
+	margin-bottom: 3rem;
+}
+
+footer .questions
+{
+	margin-bottom: 5rem;
+}
+
+footer .the-end
+{
+	font-size: 1.6rem;
+	font-family: Poppins, sans-serif;
+	color: var(--textcolor);
+	margin-top: 5rem;
+}

@@ -1,0 +1,335 @@
+*
+{
+	padding: 0rem;
+	margin: 0rem;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+:root
+{
+	--bgimg1: rgba(0, 0, 0, 0.4);
+	--bgimg2: rgba(0, 0, 0, 0.8);
+	--primary1: #FFFFFFE6;
+	--primary2: #E5CE48;
+	--textcolor: #808080;
+	--heading: white;
+	--crest: #b41b1b;
+	--backgroundColor: #090808;
+	--titles: #BFBFBF;
+	--black: black;
+}
+
+body
+{
+	background: url(https://cdn.wallpapersafari.com/1/3/97ilPz.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.row
+{
+	margin: 0rem;
+}
+
+.bgimg1
+{
+	background: var(--primary2);
+	padding: 2rem;
+}
+
+.nav-link
+{
+	color: var(--black);
+	font-family: Poppins, sans-serif;
+	font-size: 1.3rem;
+	letter-spacing: 0.2em;
+	margin: 0rem 0rem 0rem 4rem;
+}
+
+.nav-link:hover
+{
+	color: var(--crest);
+	transition-duration: 0.5s;
+}
+
+.active
+{
+	color: var(--crest);
+}
+
+
+
+.trainer
+{
+	height: auto;
+	padding: 10rem 0rem 10rem 0rem;
+}
+
+.trainer h5
+{
+	color: var(--primary2);
+	font-size: 1.6rem;
+	font-family: Poppins, sans-serif;
+	margin-bottom: 0.4rem;
+}
+
+.trainer h1
+{
+	color: var(--heading);
+	font-family: Popping, sans-serif;
+	font-size: 3.7rem;
+	font-weight: bold;
+	margin-bottom: 6rem;
+}
+
+.trainer1, .trainer2, .trainer3, .trainer4
+{
+	margin: 0rem 0rem 1.6rem 0rem;
+}
+
+.trainer-img
+{
+	height: 48rem;
+	overflow: hidden;
+}
+
+.trainer1 .trainer-img img, .trainer2 .trainer-img img 
+{
+	height: 48rem;
+	position: absolute;
+	right: -24rem;
+}
+
+.trainer3 .trainer-img img 
+{
+	height: 48rem;
+	position: absolute;
+	right: -30rem;
+}
+
+.trainer4 .trainer-img img
+{
+	height: 48rem;
+	position: absolute;
+	right: -13rem;
+}
+
+.trainer-details
+{
+	padding: 3rem 1rem 1rem 3rem;
+	background: var(--backgroundColor);
+}
+
+.trainer-details h6
+{
+	color: var(--titles);
+	font-family: Poppins, sans-serif;
+	font-size: 1.4rem;
+}
+
+.trainer-details h3 a
+{
+	color: var(--primary2);
+	font-family: Poppins, sans-serif;
+	font-size: 2.9rem;
+	text-decoration: none;
+}
+
+.trainer-details p
+{
+	font-family: Poppins, sans-serif;
+	color: var(--textcolor);
+	font-size: 1.5rem;
+	line-height: 2.7rem;
+	margin: 0rem 3rem 2.7rem 0rem;
+}
+
+.trainer-details button
+{
+	width: 6rem;
+	height: 6rem;
+	background: #262626;
+	border: none;
+	margin: 0rem 0.5rem 2rem 0rem;
+}
+
+.trainer-details button:hover
+{
+	background: var(--primary2);
+	transition-duration: 0.4s;
+}
+
+.twitter-btn, .facebook-btn, .insta-btn
+{
+	color: var(--titles);
+}
+
+.trainer-details button:hover .twitter-btn, .trainer-details button:hover .facebook-btn, .trainer-details button:hover .insta-btn
+{
+	color: black;
+	transition-duration: 0.4s;
+}
+
+
+
+footer
+{
+	padding: 10rem 0rem;
+	background: var(--backgroundColor);
+}
+
+footer .about h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .about p
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.6rem;
+	color: var(--textcolor);
+	line-height: 2.7rem;
+	margin-bottom: 5rem;
+}
+
+footer .about button
+{
+	width: 5.5rem;
+	height: 5.5rem;
+	border-radius: 3rem;
+	padding: 0rem 0rem 0rem 0.1rem;
+	background: #FFFFFF0D;
+	margin-left: 0.7rem;
+}
+
+footer .about button svg
+{
+	color: var(--heading);
+}
+
+footer .about button svg:hover
+{
+	color: var(--primary2);
+	transition-duration: 0.2s;
+}
+
+footer .about
+{
+	margin-bottom: 5rem;
+}
+
+footer .recent-testimonies h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .recent-testimonies .recent-img
+{
+	width: 6rem;
+	height: 6rem;
+	background: #FFFFFF0D;
+	overflow: hidden;
+}
+
+footer .recent-testimonies .recent-img img
+{
+	width: 5rem;
+	position: absolute;
+	right: 0rem;
+}
+
+footer .recent-testimonies p 
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.6rem;
+	color: var(--titles);
+	line-height: 2.7rem;
+	margin-bottom: 5rem;
+}
+
+footer .recent-testimonies p:hover
+{
+	transition-duration: 0.3s;
+	color: var(--primary2);
+	cursor: pointer;
+}
+
+footer .recent-testimonies
+{
+	margin-bottom: 5rem;
+}
+
+footer .f-services h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .f-services h3
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	color: var(--titles);
+}
+
+footer .f-services h3:hover
+{
+	color: var(--heading);
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+footer .f-services
+{
+	margin-bottom: 5rem;
+}
+
+footer .questions h2
+{
+	font-family: Poppins, sans-serif;
+	font-size: 1.7rem;
+	color: var(--heading);
+	margin-bottom: 4rem;
+}
+
+footer .questions svg
+{
+	color: var(--heading);
+	margin-bottom: 3rem;
+}
+
+footer .questions p 
+{
+	color: var(--titles);
+	font-size: 1.6rem;
+	font-family: Poppins, sans-serif;
+	margin-bottom: 3rem;
+}
+
+footer .questions
+{
+	margin-bottom: 5rem;
+}
+
+footer .the-end
+{
+	font-size: 1.6rem;
+	font-family: Poppins, sans-serif;
+	color: var(--textcolor);
+	margin-top: 5rem;
+}

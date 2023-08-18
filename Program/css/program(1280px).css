@@ -1,0 +1,487 @@
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+	.logo
+	{
+		width: 10rem;
+	}
+
+	.nav-link
+	{
+		font-size: 1.3rem;
+	}
+
+	.title1
+	{
+		font-size: 5rem;
+		margin-top: 24.2rem;
+	}
+	.quote
+	{
+		font-size: 1.5rem;
+		margin-bottom: 3rem;
+	}
+
+	.getStarted
+	{
+		margin-bottom: 6rem;
+		font-size: 1.3rem;
+	}
+
+	.address
+	{
+		padding: 2.5rem 0rem 1.5rem 0rem;
+	}
+
+	.contact1, .location1, .timing1
+	{
+		font-size: 1.5rem;
+	}
+
+	.contact p, .location p, .timing p
+	{
+		font-size: 1.2rem;
+	}
+
+
+	.welcome
+	{
+		padding: 4rem 0rem 4rem 0rem;
+		text-align: center;
+	}
+
+	.welcome h1
+	{
+		font-size: 3.5rem;
+	}
+
+	.welcome p 
+	{
+		margin: auto;
+		font-size: 1.3rem;
+	}
+
+
+	.services_contain
+	{
+		padding: 6rem 0rem 4rem 0rem;
+	}
+
+	.services h5
+	{
+		font-size: 1.5rem;
+	}
+
+	.services h1
+	{
+		font-size: 3.5rem;
+		margin-bottom: 1.6rem;
+	}
+
+	.services p 
+	{
+		font-size: 1.3rem;
+	}
+
+	.box h2
+	{
+		margin: 2rem 0rem 0.8rem 0rem;
+		font-size: 1.5rem;
+	}
+
+	.box h6
+	{
+		margin-bottom: 4rem;
+		font-size: 1.3rem;
+	}
+
+
+
+    .program
+    {
+    	padding: 6rem 0rem 2rem 0rem;
+    }
+
+	.program1
+	{
+		padding-top: 25%;
+		margin-bottom: 5rem;
+	}
+
+	.program1 h5
+	{
+		font-size: 1.5rem;
+	}
+
+	.program1 h1
+	{
+		font-size: 3.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.program1 p 
+	{
+		font-size: 1.3rem;
+	}
+
+	.view-programs
+{
+	padding: 1.2rem 1.7rem;
+	font-size: 1.3rem;
+	margin: 0rem 1.5rem;
+}
+
+	.program2 h3, .program2 h4
+	{
+		margin-left: 3rem;
+	}
+
+	.program2 h3
+	{
+		font-size: 1.7rem;
+	}
+
+	.program2 h4
+	{
+		font-size: 1.3rem;
+	}
+
+	.circle1, .circle2, .circle3, .circle4, .circle5
+	{
+		width: 11rem;
+		height: 11rem;
+		border-radius: 6rem;
+	}
+
+	.circle1
+	{
+		padding: auto;
+	}
+
+	.circle2
+	{
+		padding: 2rem 0rem 0rem 2.9rem;
+	}
+
+	.circle3
+	{
+		padding: 2.8rem 0rem 0rem 2.5rem;
+	}
+
+	.circle4
+	{
+		padding: 2.1rem 0rem 0rem 2.5rem;
+	}
+
+	.circle5
+	{
+		padding: 2.4rem 0rem 0rem 2.5rem;
+	}
+
+	.circle1 img, .circle2 img, .circle3 img, .circle4 img, .circle5 img
+	{
+		width: 6rem;
+	}
+
+	.program2
+	{
+		margin: 0rem;
+		padding: 0rem;
+	}
+
+
+
+	.counterup-box
+	{
+		padding: 6rem 0rem 2rem 0rem;
+	}
+
+	.counterup-box h4
+	{
+		margin-bottom: 5rem;
+		font-size: 1.3rem;
+	}
+
+	.counterup-box h1
+	{
+		font-size: 4rem;
+	}
+
+
+
+	.trainer
+	{
+		padding: 7rem 0rem 7rem 0rem;
+	}
+
+	.all-trainers
+	{
+		margin: 0rem;
+		padding: 0rem;
+	}
+
+	.trainer h5
+	{
+		font-size: 1.5rem;
+	}
+
+	.trainer h1
+	{
+		font-size: 3.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.trainer p 
+	{
+		font-size: 1.3rem;
+	}
+
+	.trainer-img
+	{
+		height: 35.7rem;
+	}
+
+	.trainer1 .trainer-img img, .trainer2 .trainer-img img 
+	{
+		height: 35.7rem;
+		right: -14rem;
+		position: absolute;
+	}
+
+	.trainer3 .trainer-img img
+	{
+		height: 35.7rem;
+		position: absolute;
+		right: -18rem;
+	}
+
+	.trainer4 .trainer-img img
+	{
+		height: 35.7rem;
+		position: absolute;
+		right: -6rem;
+	}
+
+	.trainer-details
+	{
+		padding: 3rem 1rem 1rem 2rem;
+	}
+
+	.trainer-details h6
+	{
+		font-size: 1.3rem;
+	}
+	.trainer-details h3 a 
+	{
+		font-size: 2.7rem;
+	}
+
+	.trainer-details p 
+	{
+		font-size: 1.3rem;
+	}
+
+	.trainer-details button
+{
+	width: 5rem;
+	height: 5rem;
+	margin: 0rem 0.5rem 2rem 0rem;
+}
+
+
+
+    .testimony
+    {
+    	padding: 6rem 0rem 0rem 0rem;
+    }
+
+	.testimony1
+	{
+		display: inline-block;
+	}
+
+	.testimony h5
+	{
+		font-size: 1.5rem;
+	}
+
+	.testimony h1
+	{
+		font-size: 3.5rem;
+	}
+
+	.testimony p 
+	{
+		font-size: 1.3rem;
+	}
+
+	.testimony2
+	{
+		width: auto;
+		padding-bottom: 2rem;
+	}
+
+	.testimony2 p 
+	{
+		font-size: 1.3rem;
+	}
+
+
+	.our-packages
+	{
+		margin-top: 0rem;
+		padding: ;
+	}
+
+	.our-packages h5
+	{
+		font-size: 1.5rem;
+	}
+
+	.our-packages h1
+	{
+		font-size: 3.5;
+		margin-bottom: 1.7rem;
+	}
+
+	.our-packages p 
+	{
+		font-size: 1.3rem;
+	}
+
+	.package1
+	{
+		margin-bottom: 0rem;
+	}
+
+	.package1 h2
+    {
+    	font-size: 2rem;
+    }
+    
+    .package1 h5
+    {
+    	font-size: 1.5rem;    }
+    
+    .package1 p
+    {
+    	font-size: 1.3rem;
+    }
+    
+    .package1 h1
+    {
+    	font-size: 2.4rem;
+    }
+
+
+
+	.form
+	{
+		padding: 4rem 1rem 4rem 4rem;
+	}
+
+	.form input
+	{
+		margin-bottom: 3.5rem;
+		font-size: 1.3rem;
+	}
+
+	.form button
+	{
+		font-size: 1.3rem;
+	}
+
+
+
+	footer
+	{
+		padding: 6rem 0rem 4rem 0rem;
+	}
+
+	footer .the-end
+	{
+		margin-top: 1rem;
+		font-size: 1.3rem;
+	}
+
+	footer .about h2
+	{
+		margin-bottom: 2rem;
+	}
+
+	footer .about p 
+	{
+		margin-bottom: 2rem;
+		font-size: 1.3rem;
+	}
+
+	footer .about button
+	{
+		width: 4rem;
+		height: 4rem;
+	}
+
+	footer .about button svg
+	{
+		width: 1.7rem;
+	}
+
+	footer .recent-testimonies h2
+	{
+		margin-bottom: 3rem;
+	}
+
+	footer .recent-testimonies .recent-img
+    {
+	width: 4.5rem;
+	height: 4.5rem;
+    }
+
+    footer .recent-testimonies p
+    {
+    	font-size: 1.3rem;
+    }
+
+    footer .recent-testimonies
+    {
+    	margin-bottom: 1rem;
+    }
+
+    footer .f-services h2
+    {
+    	margin-bottom: 3rem;
+    }
+
+    footer .f-services h3
+    {
+    	font-size: 1.3rem;
+    	margin-bottom: 1.6rem;
+    }
+
+    footer .f-services
+    {
+    	margin-bottom: 3rem;
+    }
+
+	footer .questions
+	{
+		margin-bottom: 1rem;
+	}
+    
+    footer .questions h2
+	{
+		margin-bottom: 3rem;
+	}
+
+	footer .questions p
+	{
+		font-size: 1.3rem;
+		margin-bottom: 2.4rem;
+	}
+
+	footer .questions svg
+	{
+		width: 1.4rem;
+		height: 1.4rem;
+		margin-bottom: 2rem;
+	}
+} 
